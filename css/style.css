@@ -426,4 +426,74 @@
 #sectFour .all-box .down-box .text3 p {
   font-size: 17px;
   color: #60697B;
+}
+
+#sectFive {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 80vh;
+}
+#sectFive .righttext p {
+  color: #AAB0C2;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#sectFive .righttext h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #343F52;
+  width: 80%;
+  margin-bottom: 40px;
+}
+#sectFive .righttext .accordion {
+  width: 600px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#sectFive .righttext .accordion .hover-item {
+  margin-bottom: 15px;
+}
+#sectFive .righttext .accordion .hover-item:hover .hover-title {
+  color: #e09b53;
+}
+#sectFive .righttext .accordion .hover-item:hover .hover-content {
+  opacity: 1;
+  margin-top: 10px;
+  height: 100px;
+}
+#sectFive .righttext .accordion .hover-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+#sectFive .righttext .accordion .hover-content {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.4s;
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+#sectSix {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 80vh;
+}
+#sectSix .box-text {
+  text-align: center;
+}
+#sectSix .box-text p {
+  color: #AAB0C2;
+  text-transform: uppercase;
+}
+#sectSix .box-text h1 {
+  font-size: 38px;
+  line-height: 1.5;
+  color: #343F52;
+  width: 50%;
+  transform: translateX(50%);
 }/*# sourceMappingURL=style.css.map */
